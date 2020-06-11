@@ -1,0 +1,47 @@
+.Sidebar {
+    border: 1px solid blue;
+    height: 100%;
+    width: 20%;
+    &__logo {
+        border: 1px solid green;
+        height: 20vh;
+    }
+    &__nav {
+        height: 70vh;
+        border: 1px solid purple;
+        padding: 10px 10px 50px 20px;
+        ul {
+            // border: 1px solid blue;
+            height: 100%;
+            li {
+                margin: 2em 0;
+                list-style: none;
+                display: flex;
+                cursor: pointer;
+                &:active {
+                    color: green;
+                }
+                // border: red 1px solid;
+                justify-content: space-between;
+                .a {
+                    text-decoration: none;
+                    &:active {
+                        color: green;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.DashboardContainer {
+    border: 1px solid red;
+    width: 80%;
+    height: 100%;
+}
+
+.Container {
+    border: 1px solid blue;
+    display: flex;
+    width: 100%;
+}

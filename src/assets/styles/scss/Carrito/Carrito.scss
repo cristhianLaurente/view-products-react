@@ -1,0 +1,27 @@
+.Carrito {
+    // border: 1px solid red;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    position: relative;
+    .Carrito__item {
+        width: 20px;
+        background: #F0F3FA;
+        border-radius: 50%;
+        box-shadow: rgb(180, 180, 180) 1px 1px 5px;
+        padding: 10px;
+        position: absolute;
+        right: 20px;
+        cursor: pointer;
+        &:hover {
+            color: green;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .Carrito {
+        flex: 2;
+        // border: 1px solid blue;
+    }
+}

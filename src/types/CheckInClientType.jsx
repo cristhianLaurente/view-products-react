@@ -1,0 +1,1 @@
+export const CHECKIN_CLIENT = 'CHECKIN_CLIENT'

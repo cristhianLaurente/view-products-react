@@ -1,0 +1,16 @@
+.ContainerGrid {
+    margin-top: 3em;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .ContainerGrid {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        background: red;
+        margin: 20px;
+        // width: 75%;
+        height: 100%;
+    }
+}

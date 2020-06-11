@@ -1,0 +1,98 @@
+.ProfileItem {
+    // border: 1px solid red;
+    padding: 2em;
+    width: 80%;
+    height: 100%;
+    margin-left: 18%;
+    &__header {
+        // border: 1px solid red;
+        height: 100px;
+        h3 {
+            font-size: 2em;
+            font-weight: 400;
+        }
+        button {
+            background: var(--green);
+            border: none;
+            padding: .5em 2em;
+            cursor: pointer;
+            border-radius: 5px;
+            box-shadow: rgb(218, 218, 218) 1px 1px 14px;
+        }
+    }
+    &__perfil {
+        // border: 1px solid blue;
+        margin: 1.5em 0;
+        padding: 1em 2em;
+        border-radius: 15px;
+        box-shadow: rgb(204, 204, 204) 0px 0px 18px;
+        height: 100%;
+        &-title {
+            font-size: 25px;
+            color: var(--yellow);
+            font-weight: 400;
+            padding-bottom: .5em;
+        }
+        &-datos {
+            // border: 1px solid red;
+            padding: 0 2em;
+            table {
+                // border: 1px solid blue;
+                font-size: 14px;
+                width: 100%;
+                tbody {
+                    tr {
+                        // border-bottom: 1px solid red;
+                        .columna1 {
+                            width: 100px !important;
+                        }
+                        .columna2 {
+                            width: 220px;
+                            font-size: 12px;
+                        }
+                        .columna3 {
+                            width: 10px;
+                            font-size: 11px;
+                            color: rgb(25, 80, 231);
+                            span {
+                                cursor: pointer;
+                            }
+                        }
+                        td {
+                            border-bottom: dotted 2px rgb(184, 184, 184);
+                            height: 45px;
+                            margin: 0;
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+        &-negocios {
+            color: var(--green);
+            font-size: 18px;
+            padding: 1em 0;
+            font-weight: 400;
+        }
+    }
+    &__information {
+        // border: 1px solid green;
+        margin: 1.5em 0;
+        padding: 1em 2em;
+        border-radius: 15px;
+        box-shadow: rgb(204, 204, 204) 0px 0px 18px;
+        height: 100%;
+    }
+}
+
+.inputProfile {
+    border: none;
+    width: 80%;
+    height: 25px;
+    &:disabled {
+        background: rgba(151, 182, 49, .4);
+        width: 80%;
+        height: 25px;
+        border-radius: 2px;
+    }
+}

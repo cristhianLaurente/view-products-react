@@ -1,0 +1,12 @@
+.ContainerHeader {
+    margin-top: 3em;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .ContainerHeader {
+        display: flex;
+        margin: 20px;
+        height: 100%;
+    }
+}

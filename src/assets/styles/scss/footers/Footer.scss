@@ -1,0 +1,59 @@
+.Footer {
+    margin: 90px 0 0 0;
+    // margin: 0;
+    // border: 1px solid red;
+    background: #686868;
+    &__header {
+        // border: 1px solid blue;
+        display: flex;
+        &-img {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .Footer__logo {
+                width: 50px;
+            }
+        }
+        &-item {
+            // border: 1px solid red;
+            flex: 1;
+            color: var(--white);
+            font-size: 12px;
+            // background: blue;
+        }
+        &-items {
+            flex: 1;
+            // background: red;
+            .holu {
+                padding: 0;
+                h2 {
+                    font-size: 16px;
+                    font-weight: 700;
+                    color: var(--white)
+                }
+                p {
+                    color: var(--white);
+                    font-size: 12px;
+                }
+                h4 {
+                    font-size: 14px;
+                    color: var(--white);
+                }
+                i {
+                    margin: 5px;
+                    font-size: 22px;
+                    color: var(--yellow);
+                }
+            }
+        }
+    }
+    &__body {
+        // border: 1px solid peru;
+        // padding-left: 20px;
+        p {
+            font-size: 12px;
+            padding: 20px;
+        }
+    }
+}

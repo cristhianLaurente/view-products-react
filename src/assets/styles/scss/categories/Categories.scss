@@ -1,0 +1,24 @@
+.Categories {
+    border: 1px solid blue;
+    background: #fff;
+    width: 250px;
+    // height: 100vh;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ul {
+        border: 1px solid red;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        li {
+            border: 1px solid blue;
+            list-style: none;
+            font-size: 13px;
+            font-weight: 700;
+            // width: 100%;
+        }
+    }
+}

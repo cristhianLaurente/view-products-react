@@ -1,0 +1,31 @@
+.Search__container {
+    // border: 1px solid red;
+    // padding-top: 2em;
+    display: flex;
+    justify-content: center;
+    flex: 2;
+    .Search__item {
+        width: 70%;
+        background: #F0F3FA;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        // height: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Search__container {
+        flex: 7;
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        // border: 1px solid blue;
+        padding-bottom: 30px;
+        // display: block;
+        .Search__item {
+            width: 88%;
+        }
+    }
+}

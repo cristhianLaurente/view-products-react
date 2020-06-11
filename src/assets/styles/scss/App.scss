@@ -1,0 +1,31 @@
+:root {
+    --white: #fff;
+    --red: #FA3201;
+    --naranja: #F5590C;
+    --yellow: #FFAD01;
+    --green: #93B230;
+    --naranjaOscuro: #F55636;
+}
+
+// logged
+@import './islogged/LoginClient.scss';
+@import './islogged/CheckInClient.scss';
+@import './islogged/Login.scss';
+@import './toolbar/Toolbar.scss';
+@import './sidebars/SideDrawer.scss';
+@import './backdrops/Backdrop.scss';
+@import './searchs/SearchDemo.scss';
+@import './products/Products.scss';
+@import './categories/Categories.scss';
+@import './Carrito/Carrito.scss';
+@import './sidebars/SideShopping.scss';
+@import './modals/Modal2.scss';
+@import './products/ProductPresentation.scss';
+@import './footers/Footer.scss';
+@import './sidebars/Sidebar.scss';
+// profiles
+@import './profiles/ProfileClient.scss';
+@import './profiles/ProfileItem.scss';
+// grids
+@import './grid/ContainerGrid.scss';
+@import './grid/ContainerHeader.scss';
